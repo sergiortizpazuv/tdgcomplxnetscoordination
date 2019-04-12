@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml>
+ <key id='nodeKey1'
+     for='node'
+     attr.name='VertexCoordinates'
+     attr.type='String' />
+ <graph id='Graph1'
+     edgedefault='undirected'>
+  <node id='1'>
+   <data key='nodeKey1'>List[0.49995217194521757`, -1.7046936919397935`]</data>
+  </node>
+  <node id='2'>
+   <data key='nodeKey1'>List[2.4244277093203817`, -3.6950545788752227`]</data>
+  </node>
+  <node id='3'>
+   <data key='nodeKey1'>List[4.632164134996466`, -1.0751453083798554`]</data>
+  </node>
+  <node id='4'>
+   <data key='nodeKey1'>List[1.1334035005758325`, -5.9499217125007196`]</data>
+  </node>
+  <node id='5'>
+   <data key='nodeKey1'>List[0.3726326679429164`, -0.6239464754151887`]</data>
+  </node>
+  <node id='6'>
+   <data key='nodeKey1'>List[6.40770588762552`, -0.9566439308501722`]</data>
+  </node>
+  <node id='7'>
+   <data key='nodeKey1'>List[3.952914362628297`, -1.7072609848464744`]</data>
+  </node>
+  <node id='8'>
+   <data key='nodeKey1'>List[5.633698396965205`, -3.814154760713766`]</data>
+  </node>
+  <node id='9'>
+   <data key='nodeKey1'>List[5.633575123540395`, -5.424919914759732`]</data>
+  </node>
+  <node id='10'>
+   <data key='nodeKey1'>List[4.615971171926387`, -5.949921712761129`]</data>
+  </node>
+  <node id='11'>
+   <data key='nodeKey1'>List[2.197862282432057`, -4.563015546580988`]</data>
+  </node>
+  <node id='12'>
+   <data key='nodeKey1'>List[5.872601039822087`, -0.6923070143719352`]</data>
+  </node>
+  <node id='13'>
+   <data key='nodeKey1'>List[5.0379271511569135`, -5.949921712761129`]</data>
+  </node>
+  <node id='14'>
+   <data key='nodeKey1'>List[7.313851473864665`, -4.993220956985122`]</data>
+  </node>
+  <node id='15'>
+   <data key='nodeKey1'>List[5.45988313038744`, -5.949921712761129`]</data>
+  </node>
+  <node id='16'>
+   <data key='nodeKey1'>List[0.4563591387086925`, -5.544020096598275`]</data>
+  </node>
+  <node id='17'>
+   <data key='nodeKey1'>List[2.1573127730061734`, -2.5439239761630543`]</data>
+  </node>
+  <node id='18'>
+   <data key='nodeKey1'>List[1.0277400933146352`, -4.8196553235934925`]</data>
+  </node>
+  <node id='19'>
+   <data key='nodeKey1'>List[4.010955188192404`, -1.3133079495321354`]</data>
+  </node>
+  <node id='20'>
+   <data key='nodeKey1'>List[0.2029508077529929`, -1.1829389095185427`]</data>
+  </node>
+  <node id='21'>
+   <data key='nodeKey1'>List[5.8818391096179665`, -5.949921712761129`]</data>
+  </node>
+  <node id='22'>
+   <data key='nodeKey1'>List[6.303795088848493`, -5.949921712761129`]</data>
+  </node>
+  <node id='23'>
+   <data key='nodeKey1'>List[6.369925281928817`, -4.619807480937292`]</data>
+  </node>
+  <node id='24'>
+   <data key='nodeKey1'>List[6.72575106807902`, -5.949921712761129`]</data>
+  </node>
+  <node id='25'>
+   <data key='nodeKey1'>List[3.262540219670247`, -5.949921712413837`]</data>
+  </node>
+  <node id='26'>
+   <data key='nodeKey1'>List[0.20295080775299357`, -4.3976100921499395`]</data>
+  </node>
+  <node id='27'>
+   <data key='nodeKey1'>List[7.630864825051779`, -2.336920830820759`]</data>
+  </node>
+  <node id='28'>
+   <data key='nodeKey1'>List[7.147707047309546`, -5.949921712761129`]</data>
+  </node>
+  <node id='29'>
+   <data key='nodeKey1'>List[7.569663026540073`, -5.949921712761129`]</data>
+  </node>
+  <node id='30'>
+   <data key='nodeKey1'>List[5.312139253792812`, -1.4226393010672513`]</data>
+  </node>
+  <node id='31'>
+   <data key='nodeKey1'>List[7.534041207562588`, -1.2700465718312697`]</data>
+  </node>
+  <node id='32'>
+   <data key='nodeKey1'>List[0.914976506838062`, -0.33816028062853665`]</data>
+  </node>
+  <node id='33'>
+   <data key='nodeKey1'>List[3.245988432119943`, -4.922817043593354`]</data>
+  </node>
+  <node id='34'>
+   <data key='nodeKey1'>List[4.111895633173409`, -5.192744935634682`]</data>
+  </node>
+  <node id='35'>
+   <data key='nodeKey1'>List[7.991619005770599`, -5.949921712761129`]</data>
+  </node>
+  <node id='36'>
+   <data key='nodeKey1'>List[8.413574985001125`, -5.949921712761129`]</data>
+  </node>
+  <node id='37'>
+   <data key='nodeKey1'>List[4.1940151926958595`, -5.949921713417996`]</data>
+  </node>
+  <node id='38'>
+   <data key='nodeKey1'>List[2.6997782126108856`, -1.6041404894842568`]</data>
+  </node>
+  <node id='39'>
+   <data key='nodeKey1'>List[0.20295080775299357`, -5.949921713371793`]</data>
+  </node>
+  <node id='40'>
+   <data key='nodeKey1'>List[6.792801602701566`, -1.7659551080175437`]</data>
+  </node>
+  <node id='41'>
+   <data key='nodeKey1'>List[1.7228512946178078`, -3.2891529633692365`]</data>
+  </node>
+  <node id='42'>
+   <data key='nodeKey1'>List[1.1516703556911203`, -1.1523667288239419`]</data>
+  </node>
+  <node id='43'>
+   <data key='nodeKey1'>List[7.312713198677743`, -4.245500565920043`]</data>
+  </node>
+  <node id='44'>
+   <data key='nodeKey1'>List[5.325508482537955`, -2.2199800873145037`]</data>
+  </node>
+  <node id='45'>
+   <data key='nodeKey1'>List[8.429629348725664`, -0.8493147674680444`]</data>
+  </node>
+  <node id='46'>
+   <data key='nodeKey1'>List[7.611600509169821`, -1.7833566601505793`]</data>
+  </node>
+  <node id='47'>
+   <data key='nodeKey1'>List[2.1985088645911044`, -5.9499217121042625`]</data>
+  </node>
+  <node id='48'>
+   <data key='nodeKey1'>List[0.20295080775299348`, -6.355823328923982`]</data>
+  </node>
+  <node id='49'>
+   <data key='nodeKey1'>List[8.128915358992048`, -1.8942419530539751`]</data>
+  </node>
+  <node id='50'>
+   <data key='nodeKey1'>List[6.36649313999319`, -0.20295080775299335`]</data>
+  </node>
+  <edge id='e1'
+      source='1'
+      target='42' />
+  <edge id='e2'
+      source='2'
+      target='11' />
+  <edge id='e3'
+      source='3'
+      target='19' />
+  <edge id='e4'
+      source='3'
+      target='30' />
+  <edge id='e5'
+      source='4'
+      target='39' />
+  <edge id='e6'
+      source='4'
+      target='47' />
+  <edge id='e7'
+      source='5'
+      target='42' />
+  <edge id='e8'
+      source='6'
+      target='12' />
+  <edge id='e9'
+      source='6'
+      target='30' />
+  <edge id='e10'
+      source='6'
+      target='31' />
+  <edge id='e11'
+      source='6'
+      target='50' />
+  <edge id='e12'
+      source='7'
+      target='30' />
+  <edge id='e13'
+      source='7'
+      target='38' />
+  <edge id='e14'
+      source='8'
+      target='23' />
+  <edge id='e15'
+      source='9'
+      target='23' />
+  <edge id='e16'
+      source='11'
+      target='18' />
+  <edge id='e17'
+      source='11'
+      target='33' />
+  <edge id='e18'
+      source='12'
+      target='30' />
+  <edge id='e19'
+      source='12'
+      target='50' />
+  <edge id='e20'
+      source='14'
+      target='23' />
+  <edge id='e21'
+      source='14'
+      target='43' />
+  <edge id='e22'
+      source='16'
+      target='18' />
+  <edge id='e23'
+      source='17'
+      target='38' />
+  <edge id='e24'
+      source='17'
+      target='41' />
+  <edge id='e25'
+      source='18'
+      target='26' />
+  <edge id='e26'
+      source='19'
+      target='30' />
+  <edge id='e27'
+      source='19'
+      target='38' />
+  <edge id='e28'
+      source='20'
+      target='42' />
+  <edge id='e29'
+      source='23'
+      target='43' />
+  <edge id='e30'
+      source='25'
+      target='37' />
+  <edge id='e31'
+      source='25'
+      target='47' />
+  <edge id='e32'
+      source='27'
+      target='40' />
+  <edge id='e33'
+      source='27'
+      target='49' />
+  <edge id='e34'
+      source='30'
+      target='40' />
+  <edge id='e35'
+      source='30'
+      target='44' />
+  <edge id='e36'
+      source='31'
+      target='40' />
+  <edge id='e37'
+      source='31'
+      target='45' />
+  <edge id='e38'
+      source='31'
+      target='46' />
+  <edge id='e39'
+      source='31'
+      target='49' />
+  <edge id='e40'
+      source='32'
+      target='42' />
+  <edge id='e41'
+      source='33'
+      target='34' />
+  <edge id='e42'
+      source='38'
+      target='42' />
+  <edge id='e43'
+      source='40'
+      target='46' />
+  <edge id='e44'
+      source='46'
+      target='49' />
+ </graph>
+</graphml>

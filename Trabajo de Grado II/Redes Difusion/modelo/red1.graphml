@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml>
+ <key id='nodeKey1'
+     for='node'
+     attr.name='VertexCoordinates'
+     attr.type='String' />
+ <graph id='Graph1'
+     edgedefault='undirected'>
+  <node id='1'>
+   <data key='nodeKey1'>List[5.51155055453552`, -1.0035205519535308`]</data>
+  </node>
+  <node id='2'>
+   <data key='nodeKey1'>List[3.993748953341771`, -1.3867788523352398`]</data>
+  </node>
+  <node id='3'>
+   <data key='nodeKey1'>List[0.19162915019085447`, -1.3867788523352398`]</data>
+  </node>
+  <node id='4'>
+   <data key='nodeKey1'>List[2.8502080639786858`, -0.19162915019085436`]</data>
+  </node>
+  <node id='5'>
+   <data key='nodeKey1'>List[1.132140742117104`, -0.8791505540509754`]</data>
+  </node>
+  <node id='6'>
+   <data key='nodeKey1'>List[3.4249975796485064`, -0.7144588361429915`]</data>
+  </node>
+  <node id='7'>
+   <data key='nodeKey1'>List[0.19162915019085425`, -1.0034833441673896`]</data>
+  </node>
+  <node id='8'>
+   <data key='nodeKey1'>List[4.572074400749047`, -0.8788006615483915`]</data>
+  </node>
+  <node id='9'>
+   <data key='nodeKey1'>List[2.2794343715620284`, -0.7150533342000467`]</data>
+  </node>
+  <node id='10'>
+   <data key='nodeKey1'>List[2.092689051766313`, -1.3867788523352398`]</data>
+  </node>
+  <edge id='e1'
+      source='1'
+      target='8' />
+  <edge id='e2'
+      source='4'
+      target='6' />
+  <edge id='e3'
+      source='4'
+      target='9' />
+  <edge id='e4'
+      source='5'
+      target='7' />
+  <edge id='e5'
+      source='5'
+      target='9' />
+  <edge id='e6'
+      source='6'
+      target='8' />
+  <edge id='e7'
+      source='6'
+      target='9' />
+ </graph>
+</graphml>

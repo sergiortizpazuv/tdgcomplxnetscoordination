@@ -1,0 +1,188 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7076,        180]
+NotebookOptionsPosition[      6143,        152]
+NotebookOutlinePosition[      6487,        167]
+CellTagsIndexPosition[      6444,        164]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.7354046166122093`*^9, 
+  3.7354046345306263`*^9}},ExpressionUUID->"a22473b2-ce2e-4068-977e-\
+85cee25966c5"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"fd", "=", 
+   RowBox[{"OpenWrite", "[", "\"\<foo.txt\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.735404656209886*^9, 
+  3.735404675109623*^9}},ExpressionUUID->"15445c45-66b6-4aff-ba7e-\
+653168e8616c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"xNumberOfIterations", "=", "3"}], ";"}]], "Input",
+ CellChangeTimes->{{3.7354046826888447`*^9, 
+  3.7354046911141653`*^9}},ExpressionUUID->"b0f86317-198e-4f80-8b4b-\
+3ab11fa29f0c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Do", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"m", "=", 
+      RowBox[{"RandomReal", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Mod", "[", 
+         RowBox[{"n", ",", "xNumberOfIterations"}], "]"}], "\[Equal]", "0"}], 
+       ",", "\[IndentingNewLine]", 
+       RowBox[{"Write", "[", 
+        RowBox[{"fd", ",", "m"}], "]"}]}], "\[IndentingNewLine]", "]"}]}], 
+    "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "1", ",", "10"}], "}"}]}], "\[IndentingNewLine]", 
+   "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Close", "[", "fd", "]"}]}], "Input",
+ CellChangeTimes->{{3.7354046953601985`*^9, 
+  3.735404785509698*^9}},ExpressionUUID->"2243925f-fd6a-4c90-9837-\
+a7269e4cb594"],
+
+Cell[BoxData["\<\"foo.txt\"\>"], "Output",
+ CellChangeTimes->{
+  3.7354124896610413`*^9},ExpressionUUID->"4b50ba34-a7ad-468b-9b10-\
+e40213689dbc"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"red", "=", 
+   RowBox[{"RandomGraph", "[", 
+    RowBox[{"{", 
+     RowBox[{"500", ",", " ", "700"}], "}"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.735405455334861*^9, 
+  3.7354055107306976`*^9}},ExpressionUUID->"fd2ca544-cf9e-4859-96cb-\
+8b5a5fd61f2c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "Una", " ", "caracter\[IAcute]stica", " ", "importante", " ", "de", " ", 
+   "las", " ", "redes", " ", "complejas", " ", "son", " ", "los", " ", 
+   "ciclos", " ", "de", " ", "diferentes", " ", "longitudes", " ", "que", " ",
+    "subyacen", " ", "a", " ", "los", " ", "patrones", " ", "de", " ", 
+   RowBox[{"conectividad", ".", " ", "Se"}], " ", "ha", " ", "reconocido", 
+   " ", "que", " ", "la", " ", "distribuci\[OAcute]n", " ", 
+   "estad\[IAcute]stica", " ", "de", " ", "ciclos", " ", "es", " ", 
+   "particularmente", " ", "importante", " ", "para", " ", "definir", " ", 
+   "no", " ", "solo", " ", "la", " ", "topolog\[IAcute]a", " ", "de", " ", 
+   "las", " ", "respectivas", " ", "redes"}], ",", 
+  RowBox[{
+  "sino", " ", "tambi\[EAcute]n", " ", "la", " ", "din\[AAcute]mica", " ", 
+   "de", " ", "los", " ", "sistemas", " ", "que", " ", "se", " ", "ejecutan", 
+   " ", "en", " ", "dichos", " ", "marcos"}], ",", 
+  RowBox[{"debido", " ", "a", " ", "la", " ", 
+   RowBox[{"retroalimentaci\[OAcute]n", ".", " ", "La"}], " ", "cantidad", 
+   " ", "de", " ", "ciclos"}], ",", 
+  RowBox[{
+  "incluso", " ", "en", " ", "una", " ", "red", " ", "de", " ", 
+   "tama\[NTilde]o", " ", "moderado"}], ",", 
+  RowBox[{
+  "es", " ", "tan", " ", "grande", " ", "que", " ", "es", " ", "imposible", 
+   " ", 
+   RowBox[{"descubrirlos", ".", "En"}], " ", "general"}], ",", 
+  RowBox[{
+  "la", " ", "densidad", " ", "de", " ", "los", " ", "ciclos", " ", "tiende", 
+   " ", "a", " ", "aumentar", " ", "a", " ", "medida", " ", "que", " ", "se", 
+   " ", "incorporan", " ", "m\[AAcute]s", " ", "bordes", " ", "en", " ", 
+   "una", " ", "red"}], ",", 
+  RowBox[{
+  "surgiendo", " ", "ciclos", " ", "m\[AAcute]s", " ", "largos", " ", "antes",
+    " ", "que", " ", "los", " ", "m\[AAcute]s", " ", 
+   RowBox[{"cortos", ".", " ", "Por"}], " ", "lo", " ", "tanto"}], ",", 
+  RowBox[{
+  "la", " ", "densidad", " ", "de", " ", "ciclos", " ", "de", " ", 
+   "diferentes", " ", "longitudes", " ", "puede", " ", "usarse", " ", "como", 
+   " ", "un", " ", "indicador", " ", "de", " ", "la", " ", "conectividad", 
+   " ", "entre", " ", "cualquier", " ", "subconjunto", " ", "de", " ", 
+   RowBox[{"nodos", ".", "En"}], " ", "otras", " ", "palabras"}], ",", 
+  RowBox[{
+  "cuanto", " ", "mayor", " ", "es", " ", "el", " ", "n\[UAcute]mero", " ", 
+   "de", " ", "ciclos", " ", "cortos", " ", "entre", " ", "un", " ", 
+   "subconjunto", " ", "de", " ", "nodos"}], ",", 
+  RowBox[{
+  "m\[AAcute]s", " ", "conectados", " ", "est\[AAcute]n", " ", "entre", " ", 
+   RowBox[{"ellos", ".", " ", "Los"}], " ", "ciclos", " ", "m\[AAcute]s", " ",
+    "largos", " ", "tienden", " ", "a", " ", "crecer"}], ",", 
+  "\"\<enrollarse\>\"", ",", 
+  RowBox[{
+  "junto", " ", "con", " ", "estos", " ", "ciclos", " ", "m\[AAcute]s", " ", 
+   "cortos"}], ",", 
+  RowBox[{"sin", " ", "embargo"}], ",", 
+  RowBox[{
+  "borran", " ", "la", " ", "distinci\[OAcute]n", " ", "entre", " ", "nodos", 
+   " ", "basada", " ", "\[UAcute]nicamente", " ", "en", " ", "la", " ", 
+   "participaci\[OAcute]n", " ", "de", " ", "ciclo", " ", 
+   RowBox[{"corto", "."}]}]}]], "Input",
+ CellChangeTimes->{{3.7354167840143948`*^9, 3.7354167840354548`*^9}, {
+   3.7354169722869587`*^9, 3.735416973080117*^9}, {3.7354170559591312`*^9, 
+   3.735417058264259*^9}, 3.7354172860381966`*^9, {3.735417477134081*^9, 
+   3.735417477714636*^9}, {3.7354176563008614`*^9, 
+   3.7354176569676027`*^9}},ExpressionUUID->"3f33507c-607a-4585-b424-\
+508f5c6c93f2"]
+},
+WindowSize->{759, 601},
+WindowMargins->{{Automatic, 90}, {19, Automatic}},
+FrontEndVersion->"11.1 para Microsoft Windows (64-bit) (April 18, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 253, 6, 47, "Input", "ExpressionUUID" -> \
+"a22473b2-ce2e-4068-977e-85cee25966c5"],
+Cell[814, 28, 245, 6, 47, "Input", "ExpressionUUID" -> \
+"15445c45-66b6-4aff-ba7e-653168e8616c"],
+Cell[1062, 36, 215, 5, 30, "Input", "ExpressionUUID" -> \
+"b0f86317-198e-4f80-8b4b-3ab11fa29f0c"],
+Cell[CellGroupData[{
+Cell[1302, 45, 859, 22, 271, "Input", "ExpressionUUID" -> \
+"2243925f-fd6a-4c90-9837-a7269e4cb594"],
+Cell[2164, 69, 146, 3, 30, "Output", "ExpressionUUID" -> \
+"4b50ba34-a7ad-468b-9b10-e40213689dbc"]
+}, Open  ]],
+Cell[2325, 75, 296, 8, 47, "Input", "ExpressionUUID" -> \
+"fd2ca544-cf9e-4859-96cb-8b5a5fd61f2c"],
+Cell[2624, 85, 3515, 65, 316, "Input", "ExpressionUUID" -> \
+"3f33507c-607a-4585-b424-508f5c6c93f2"]
+}
+]
+*)
+
